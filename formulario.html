@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            background-image: url(./img/pasillo.jpg);
+        }
+    </style>
+    <link rel="stylesheet" href="./css/master.css">
+</head>
+<body>
+<header id="encabezado">
+    <figure id="logo">
+        <img src="./img/logo.png" alt=" logo de escuela">
+    </figure>
+
+    <nav id="menu">
+        <ul id="opciones">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#quienesSomos">Quienes somos</a></li>
+            <li><a href="#PorQueElegirnos">¿Por que elegirnos?</a></li>
+            <li><a href="#PropuestaEducativa">Propuesta educativa</a></li>
+            <li><a href="#UltimasNoticias">Ultimas noticias</a></li>
+            <li><a href="#piePagina">contacto</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+    
+</header>
+    <section id="formularioContacto">
+        <h2 id="contacto" class="destacado">Contactanos</h2>
+        <form action="datos.php" method="get">
+            <div>
+                <label class="destacado" for="nombre">Nombre</label>
+                <br>
+                <input type="text" name="nombre" value="" id="nombre" required placeholder="Indique su nombre" minlength="3"
+                    maxlength="10">
+            </div>
+            <div>
+                <label class="destacado" for="apellido">Apellido</label>
+                <br>
+                <input type="text" name="apellido" value="" id="apellido" required placeholder="Indique su apellido">
+            </div>
+            <div>
+                <label class="destacado" for="comentario">Comentarios</label>
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" required
+                    placeholder="Indique sus comentarios"></textarea>
+            </div>
+            <div>
+                <!--<input type="submit" value="Enviar comentarios">-->
+                <button type="submit">Enviar comentarios</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

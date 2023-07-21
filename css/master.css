@@ -1,0 +1,192 @@
+/*== aplicando css global==*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+/* responsive*/
+
+
+/*== aplicando css al encabezado==*/
+#encabezado{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    padding: 30px;
+}
+
+#opciones {
+     display: flex;
+     justify-content: space-around;
+     justify-content: space-between;
+     font-size: 1.8rem;
+}
+  
+figure#logo img {
+     width: 100px;
+     height: 100px;
+     padding: 2px;
+     margin: 20px;
+}
+
+#menu{
+    width: 70%;
+ }
+
+ /*== aplicando css al titulo ==*/
+ #titulo{
+    font-size: 3rem;
+    text-align: center;
+    padding: 30PX;
+    margin: auto;
+    
+ }
+
+/*== aplicando css al primer subtitulo(quenes somos)==*/
+#quienesSomos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.8rem;  
+    align-items: center; 
+    padding: 2px;
+    
+}
+section#quienesSomos article {
+    width: 90%;
+
+}
+#sibtitulo-1{
+    text-align: center;
+   
+}
+
+/*== aplicando css al segundo subtitulo(¿porque elegirnos?)==*/
+#PorQueElegirnos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.8rem;
+    align-items: center;
+    padding: 2px;   
+}
+
+#subtitulo-2{
+    text-align: center;
+
+}
+
+/*== aplicando css al tercer subtitulo (propuesta educativa)==*/
+#PropuestaEducativa {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imagen{
+    height: 100%;
+}
+
+section#PropuestaEducativa article{
+    width: 25%;
+    height: 350px;
+    padding: 70px;
+    font-size: 1.8rem;
+    position: relative;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+h2#subtitulo-3{
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 50px;
+}
+
+
+/*== aplicando css a ultimas noticias==*/
+
+
+#UltimasNoticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+
+section#UltimasNoticias article{
+    padding: 70px;
+}
+
+                
+#noticias{
+    text-align: center;
+    font-size: 3rem;
+}
+
+/*== aplicando css al footer==*/
+#piePagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+#instituto{
+    text-align: center;
+    font-size:3rem;
+}
+#Contacto{
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+
+#redes{
+    font-size: 2rem;
+    
+    
+    text-align: center;
+}
+ #sociales{
+    padding: 30px;
+ }
+ #subtitulo-4{
+    padding: 30px;
+ }
+ /*== aplicano css al formulario*/
+
+ #formularioContacto{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    padding-top: 100px;
+    width: 30%;
+    font-size: 2.5rem;
+    
+ }
+ 
+ .destacado{
+    padding: 20px;
+ }
+
+/*== aplicando comportamientoreponsive ==*/
